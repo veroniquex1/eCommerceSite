@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+body{
+    display: grid;
+    grid-template-rows: auto 100vw auto;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+img{
+    height: 200px;
+    width: 150px;
+}
+.books h2{
+    text-align: center;
+    padding: auto;
+    margin: 25px;
+}
