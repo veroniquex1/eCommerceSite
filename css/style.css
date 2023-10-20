@@ -5,35 +5,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    background-color: rgb(93, 141, 174);  
-    color: white;
-    display: flex;
+.background-image{
+    border-width: 100px;
+    filter: blur(3px);
+    width: 250px;
 }
-header div{
-    justify-content: right;
-   
+header{
+    display: flex;
+    background-color: rgba(175,139,62,255);  
+    color: rgba(59,39,27,255);
+    justify-content: space-around;
+}
+header #navbar{ 
+    display: inline-block;
 }
 header img{
-    height: 150px;
-    width: 100px;
+    height: 120px;
+    width: 70px;
 }
-body{
+
+/*body{
     display: grid;
-    grid-template-rows: auto 100vw auto;
-}
+}*/ 
 footer{
-    background-color: rgb(93, 141, 174);
+    background-color: rgba(175,139,62,255);
     text-align: center;
-    color: white;
+    color: rgba(59,39,27,255);
     height: 20px;
-}
-.books img{
-    height: 200px;
-    width: 150px;
-}
-.books h2{
-    text-align: center;
-    padding: auto;
-    margin: 25px;
 }
