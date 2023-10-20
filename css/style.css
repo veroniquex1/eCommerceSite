@@ -6,20 +6,29 @@
     box-sizing: border-box;
 }
 header{
-    background-color: black;
+    background-color: rgb(93, 141, 174);  
     color: white;
     display: flex;
+}
+header div{
+    justify-content: right;
+   
+}
+header img{
+    height: 150px;
+    width: 100px;
 }
 body{
     display: grid;
     grid-template-rows: auto 100vw auto;
 }
 footer{
-    background-color: black;
+    background-color: rgb(93, 141, 174);
     text-align: center;
     color: white;
+    height: 20px;
 }
-img{
+.books img{
     height: 200px;
     width: 150px;
 }
