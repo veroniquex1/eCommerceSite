@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: rgba(175,139,62,255);  
+    color: white;
+    justify-content: space-around;
+}
+header #navbar{ 
+    display: inline-block;
+}
+header img{
+    height: 150px;
+    width: 100px;
+}
+
+body{
+    display: grid;
+}
+footer{
+    background-color: rgb(93, 141, 174);
+    text-align: center;
+    color: white;
+    height: 20px;
+}
+.test img{
+    height: 200px;
+    width: 150px;
+}
+body h2{
+    text-align: center;
+    color: rgb(93, 141, 174);
+    padding: auto;
+    margin: 25px;
+}
+
+.button-wrapper {
+    justify-content: space-between;
+}
+.button-wrapper button {
+    border: 1px solid;
+    padding: 2px;
+}
+.books{
+    display:flex;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.books, .item, .button-wrapper{
+    padding: 10px;
+}
+.item p{}
